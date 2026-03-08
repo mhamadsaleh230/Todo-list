@@ -1,0 +1,49 @@
+body{
+    width: 50%;
+}
+li{
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.card{
+    width: 100%;
+
+}
+td[data-completed="1"] {
+  text-decoration: line-through;
+}
+.deletbutton{
+  cursor: pointer;
+  background-color: #ff4d4f;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.deletbutton:hover {
+  background-color: #d9363e;
+}
+.editbutton{
+  cursor: pointer;
+  background-color: #b1a1a1bd;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 5px;
+  transition: background-color 0.3s ease;
+}
+.editbutton:hover {
+  background-color: #706e6e57;
+}
